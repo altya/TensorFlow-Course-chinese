@@ -28,25 +28,25 @@ TensorFlow 是什么?
 ~~~~~~~~~~~~~~~~~~~~~
 TensorFlow 是一个开源软件库，用于跨一系列任务进行数据流编程.  它是一个符号数学库，也用于机器学习应用程序，如神经网络。它被用于谷歌的研究和生产，经常替换它的闭源前身DistBelief。
 
-TensorFlow was developed by the Google Brain team for internal Google use. It was released under the Apache 2.0 open source license on November 9, 2015.
+TensorFlow由谷歌大脑团队开发，用于谷歌内部使用。它是在Apache 2.0开源许可协议下于2015年11月9日发布的。
 
-The current stable release as of September 27, 2018 is 1.11.0
+截至2018年9月27日，目前的稳定版本是1.11.0
 
 ============
-Motivation
+动机
 ============
 
-There are different motivations for this open source project. TensorFlow (as we write this document) is one of / the best deep learning frameworks available. The question that should be asked is why has this repository been created when there are so many other tutorials about TensorFlow available on the web?
+这个开源项目有不同的动机。TensorFlow(在我们撰写本文时)是可用的/最好的深度学习框架之一。问题是，当网上有这么多关于TensorFlow的教程可用时，为什么还要创建这个仓库（教程）呢?
 
 ~~~~~~~~~~~~~~~~~~~~~
-Why use TensorFlow?
+为什么使用TensorFlow?
 ~~~~~~~~~~~~~~~~~~~~~
 
-Deep Learning is in very high interest these days - there's a crucial need for rapid and optimized implementations of the algorithms and architectures. TensorFlow is designed to facilitate this goal.
+深度学习如今风头正盛 - 因此急需对对于算法和体系结构的快速和优化实现。 TensorFlow 就是被设计用来促进这一目标。
 
-The strong advantage of TensorFlow is it flexibility in designing highly modular models which can also be a disadvantage for beginners since a lot of the pieces must be considered together when creating the model.
+TensorFlow的强大优势在于它在设计高度模块化模型时的灵活性，这对初学者来说也是一个缺点，因为在创建模型时，必须将许多部分考虑在一起。
 
-This issue has been facilitated as well by developing high-level APIs such as `Keras <https://keras.io/>`_ and `Slim <https://github.com/tensorflow/models/blob/031a5a4ab41170d555bc3e8f8545cf9c8e3f1b28/research/inception/inception/slim/README.md>`_ which abstract a lot of the pieces used in designing machine learning algorithms.
+这个问题在开发高级API，例如 `Keras <https://keras.io/>`_ 和 `Slim <https://github.com/tensorflow/models/blob/031a5a4ab41170d555bc3e8f8545cf9c8e3f1b28/research/inception/inception/slim/README.md>`_ 时得到了简化， 他们抽象了机器学习算法设计中的很多部分。
 
 The interesting thing about TensorFlow is that **it can be found anywhere these days**. Lots of the researchers and developers are using it and *its community is growing at the speed of light*! So many issues can be dealt with easily since they're usually the same issues that a lot of other people run into considering the large number of people involved in the TensorFlow community.
 
