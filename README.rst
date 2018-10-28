@@ -46,29 +46,27 @@ TensorFlow由谷歌大脑团队开发，用于谷歌内部使用。它是在Apac
 
 TensorFlow的强大优势在于它在设计高度模块化模型时的灵活性，这对初学者来说也是一个缺点，因为在创建模型时，必须将许多部分考虑在一起。
 
-这个问题在开发高级API，例如 `Keras <https://keras.io/>`_ 和 `Slim <https://github.com/tensorflow/models/blob/031a5a4ab41170d555bc3e8f8545cf9c8e3f1b28/research/inception/inception/slim/README.md>`_ 时得到了简化， 他们抽象了机器学习算法设计中的很多部分。
+这个问题在开发高级API，例如 `Keras <https://keras.io/>`_ 和 `Slim <https://github.com/tensorflow/models/blob/031a5a4ab41170d555bc3e8f8545cf9c8e3f1b28/research/inception/inception/slim/README.md>`_ 时得到了简化，因为他们抽象了机器学习算法设计中的很多部分。
 
-The interesting thing about TensorFlow is that **it can be found anywhere these days**. Lots of the researchers and developers are using it and *its community is growing at the speed of light*! So many issues can be dealt with easily since they're usually the same issues that a lot of other people run into considering the large number of people involved in the TensorFlow community.
+关于TensorFlow有趣的是，  **如今它到处都是**. 许多研究人员和开发人员正在使用它， 并且 *它的社区以光速发展*! 许多问题都可以很容易地解决，因为有大量的人参与到TensorFlow社区中，这些问题通常与许多其他人遇到的问题相同。
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-What's the point of this repository?
+这个仓库的意义是什么?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Developing open source projects for the sake of just developing something is not the reason behind this effort**.
-Considering the large number of tutorials that are being added to this large community, this repository has been created to break the jump-in and jump-out process that usually happens to most of the open source projects, **but why and how**?
+**开发开源项目只是为了开发一些东西，这并不是背后的原因**.
+考虑到大量的教程正被加入到这个大型社区中去， 这个仓库的创建是为了打破通常发生在大多数开源项目上的“从创建到退出”的过程, **但是为什么，怎么做？**?
 
-First of all, what's the point of putting effort into something that most of the people won't stop by and take a look? What's the point of creating something that does not help anyone in the developers and researchers community? Why spend time for something that can easily be forgotten? But **how we try to do it?** Even up to this
-very moment there are countless tutorials on TensorFlow whether on the model design or TensorFlow
-workflow.
+首先，把精力放在大多数人不会停下来看一眼的东西上有什么意义呢?创建对开发人员和研究人员社区中的任何人都没有帮助的东西有什么意义?为什么花时间在一些遗忘的东西上? 但是 **我们如何尝试去做?**即使到现在，有无数关于TensorFlow的教程，无论是关于模型设计还是TensorFlow工作流。
 
-Most of them are too complicated or suffer from a lack of documentation. There are only a few available tutorials which are concise and well-structured and provide enough insight for their specific implemented models.
+他们中大部分都太复杂了，或者缺少文档。只有极少数的教程是简洁且结构良好的，并且为他们的特定实现模型提供了足够的洞察力。
 
-The goal of this project is to help the community with structured tutorials and simple and optimized code implementations to provide better insight about how to use TensorFlow *quick and effectively*.
+这个项目的目标是通过结构化教程和简单优化的代码实现帮助社区更好地了解如何 *快速且高效*的使用TensorFlow.
 
-It is worth noting that, **the main goal of this project is to provide well-documented tutorials and less-complicated code**!
+值得注意的是, **这个项目的主要目标是提供良好文档化的教程和不那么复杂的代码**!
 
 =================================================
-TensorFlow Installation and Setup the Environment
+TensorFlow 安装和配置环境
 =================================================
 
 .. image:: _img/mainpage/installation-logo.gif
@@ -81,26 +79,26 @@ TensorFlow Installation and Setup the Environment
 
 .. _TensorFlow Installation: docs/tutorials/installation
 
-In order to install TensorFlow please refer to the following link:
+安装TensorFlow请参照以下链接:
 
-  * `TensorFlow Installation`_
+  * `TensorFlow 安装`_
 
 
 .. image:: _img/mainpage/installation.gif
     :target: https://www.youtube.com/watch?v=_3JFEPk4qQY&t=2s
 
-The virtual environment installation is recommended in order to prevent package conflict and having the capacity to customize the working environment.
+建议安装虚拟环境，以防止包冲突并具有自定义工作环境的能力。
 
 ====================
-TensorFlow Tutorials
+TensorFlow 教程
 ====================
 
-The tutorials in this repository are partitioned into relevant categories.
+此仓库中的教程被划分为相关的类别。
 
 ==========================
 
 ~~~~~~~~
-Warm-up
+热身
 ~~~~~~~~
 
 .. image:: _img/mainpage/welcome.gif
@@ -111,7 +109,7 @@ Warm-up
    :align: right
 
 +----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
-| #  |       topic         |   Source Code                                                                          |                                              |
+| #  |       主题         |   源代码                                                                          |                                              |
 +====+=====================+========================================================================================+==============================================+
 | 1  | Start-up            | `Welcome <welcomesourcecode_>`_  / `IPython <ipythonwelcome_>`_                        |  `Documentation <Documentationcnnwelcome_>`_ |
 +----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
@@ -119,7 +117,7 @@ Warm-up
 ==========================
 
 ~~~~~~
-Basics
+基础
 ~~~~~~
 
 .. image:: _img/mainpage/basics.gif
@@ -130,7 +128,7 @@ Basics
    :align: right
 
 +----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
-| #  |       topic         |   Source Code                                                                          |                                              |
+| #  |       主题         |   源代码                                                                          |                                              |
 +====+=====================+========================================================================================+==============================================+
 | 2  | *TensorFLow Basics* | `Basic Math Operations <basicmathsourcecode_>`_   / `IPython <ipythonbasicmath_>`_     |  `Documentation <Documentationbasicmath_>`_  |
 +----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
@@ -140,7 +138,7 @@ Basics
 ==========================
 
 ~~~~~~~~~~~~~~~~~~~~~~
-Basic Machine Learning
+基础机器学习
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: _img/mainpage/basicmodels.gif
@@ -151,7 +149,7 @@ Basic Machine Learning
    :align: right
 
 +----+----------------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
-| #  |       topic                |   Source Code                                                                          |                                              |
+| #  |       主题                |   源代码                                                                        |                                              |
 +====+============================+========================================================================================+==============================================+
 | 4  | *Linear Models*            |`Linear Regression`_  / `IPython <LinearRegressionipython_>`_                           | `Documentation <Documentationlr_>`_          |
 +----+----------------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
@@ -165,7 +163,7 @@ Basic Machine Learning
 ==========================
 
 ~~~~~~~~~~~~~~~~
-Neural Networks
+神经网络
 ~~~~~~~~~~~~~~~~
 
 .. image:: _img/mainpage/CNNs.png
@@ -176,7 +174,7 @@ Neural Networks
    :align: right
 
 +----+-----------------------------------+-----------------------------------------------------------------------------------------------+----------------------------------------------+
-| #  |       topic                       |   Source Code                                                                                 |                                              |
+| #  |       主题                      |   源代码                                                                                 |                                              |
 +====+===================================+===============================================================================================+==============================================+
 | 8  | *Multi Layer Perceptron*          |`Simple Multi Layer Perceptron`_   / `IPython <MultiLayerPerceptronipython_>`_                 |                                              |
 +----+-----------------------------------+-----------------------------------------------------------------------------------------------+----------------------------------------------+
