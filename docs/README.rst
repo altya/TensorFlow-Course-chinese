@@ -13,7 +13,7 @@ TensorFlow 世界
 .. image:: https://zenodo.org/badge/86115145.svg
    :target: https://zenodo.org/badge/latestdoi/86115145
 
-这个仓库旨在为TensorFlow提供简单且可即用的教程. 与这个仓库相关的解释见 wiki_ 。 Each tutorial has a ``source code`` and its ``documentation``.
+这个仓库旨在为TensorFlow提供简单且可即用的教程. 与这个仓库相关的解释见 wiki_ 。 每个教程都有 ``源代码`` 和它的 ``文档``.
 
 .. image:: _img/mainpage/TensorFlow_World.gif
 
@@ -22,51 +22,45 @@ TensorFlow 世界
 .. _TensorFlow: https://www.tensorflow.org/install/
 
 ============
-Motivation
+动机
 ============
 
-There are different motivations for this repository. Some are TensorFlow-related which is one of the bests up to the moment that
-this document is being written! The question is why this repository has been created among all other available tutorials on the web?
+这个开源项目有不同的动机。 一些是TensorFlow相关的。比如此时，这个文档正在编写。问题是，在如此多的教程已经可用的情况下，为何这篇教程还要被创建？
 
 ~~~~~~~~~~~~~~~~~~~~~
-Why using TensorFlow?
+为什么使用TensorFlow?
 ~~~~~~~~~~~~~~~~~~~~~
 
-A deep learning is of great interest these days, the crucial necessity for rapid and optimized implementation of the algorithms
-and designing architectures is the software environment. TensorFlow is designed to facilitate this goal. The strong advantage of
-TensorFlow is it flexibility is designing highly modular model which also can be a disadvantage too for beginners since lots of
-the pieces must be considered together for creating the model. This issue has been facilitated as well by developing high-level APIs
-such as `Keras <https://keras.io/>`_ and `Slim <https://github.com/tensorflow/models/blob/master/inception/inception/slim/README.md//>`_
-which gather lots of the design puzzle pieces. The interesting point about TensorFlow is that **its trace can be found anywhere these days**.
-Lots of the researchers and developers are using it and *its community is growing with the speed of light*! So the possible issues can
-be overcame easily since they might be the issues of lots of other people considering a large number of people involved in TensorFlow community.
+深度学习如今风头正盛，快速优化算法实现以及在软件环境中设计架构变得非常关键。  TensorFlow 就是被设计用来促进这一目标。 The strong advantage of
+TensorFlow的强大优势在于它在设计高度模块化模型时的灵活性，这对初学者来说也是一个缺点，因为在创建模型时，必须将许多部分考虑在一起。 这个问题在开发高级API，例如 `Keras <https://keras.io/>`_ 和 `Slim <https://github.com/tensorflow/models/blob/031a5a4ab41170d555bc3e8f8545cf9c8e3f1b28/research/inception/inception/slim/README.md>`_ 时得到了简化，因为他们抽象了机器学习算法设计中的很多部分。
+
+关于TensorFlow有趣的是，  **如今它到处都是**. 许多研究人员和开发人员正在使用它， 并且 *它的社区以光速发展*! 许多问题都可以很容易地解决，因为有大量的人参与到TensorFlow社区中，这些问题通常与许多其他人遇到的问题相同。
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-What's the point of this repository?
+这个仓库的意义是什么?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Developing open source project for the sake of just developing something is not the reason behind for this effort**.
-Considering the large number of tutorials that are being added to this large community, this repository has been created to break the
-jump-in and jump-out process usually happens to most of the open source projects, **but why and how**?
+**开发开源项目只是为了开发一些东西，这并不是背后的原因**.
+考虑到大量的教程正被加入到这个大型社区中去， 这个仓库的创建是为了打破通常发生在大多数开源项目上的“从创建到退出”的过程, **但是为什么，怎么做？**?
 
-First of all, what's the point of putting effort on something that most of the people won't stop by and take a look? What's the point of creating something that does not
-help anyone in the developers and researchers community? Why spending time for something that can easily be forgotten? But **how we try to do it?** Even up to this
-very moment there are countless tutorials on TensorFlow whether on the model design or TensorFlow
-workflow. Most of them are too complicated or suffer from a lack of documentation. There are only a few available tutorials which are concise and well-structured
-and provide enough insight for their specific implemented models. The goal of this project is to help the community with structured tutorials
-and simple and optimized code implementation to provide better insight about how to use TensorFlow *fast and efficient*. It is worth
-noting that, **the main goal of this project is providing well-documented tutorials and less-complicated codes**!
+首先，把精力放在大多数人不会停下来看一眼的东西上有什么意义呢?创建对开发人员和研究人员社区中的任何人都没有帮助的东西有什么意义?为什么花时间在一些遗忘的东西上? 但是 **我们如何尝试去做?**即使到现在，有无数关于TensorFlow的教程，无论是关于模型设计还是TensorFlow工作流。
+
+他们中大部分都太复杂了，或者缺少文档。只有极少数的教程是简洁且结构良好的，并且为他们的特定实现模型提供了足够的洞察力。
+
+这个项目的目标是通过结构化教程和简单优化的代码实现帮助社区更好地了解如何 *快速且高效*的使用TensorFlow.
+
+值得注意的是, **这个项目的主要目标是提供良好文档化的教程和不那么复杂的代码**!
 
 
 
 ====================
-TensorFlow Tutorials
+TensorFlow 教程
 ====================
-The tutorials in this repository are partitioned into relevant categories.
+此仓库中的教程被划分为相关的类别。
 
 
 +----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
-| #  |       topic         |   Source Code                                                                          |                                              |
+| #  |       主题         |   资源 Code                                                                          |                                              |
 +====+=====================+========================================================================================+==============================================+
 | 1  | Start-up            |  `Welcome <welcomesourcecode_>`_  / `IPython <ipythonwelcome_>`_                       |  `Documentation <Documentationcnnwelcome_>`_ |
 +----+---------------------+----------------------------------------------------------------------------------------+----------------------------------------------+
@@ -188,12 +182,12 @@ The tutorials in this repository are partitioned into relevant categories.
 
 
 =================================================
-TensorFlow Installation and Setup the Environment
+TensorFlow 安装和配置环境
 =================================================
 
 .. _TensorFlow Installation: https://github.com/astorfi/TensorFlow-World/tree/master/docs/tutorials/installation
 
-In order to install TensorFlow please refer to the following link:
+安装TensorFlow请参照以下链接:
 
   * `TensorFlow Installation`_
 
@@ -202,47 +196,46 @@ In order to install TensorFlow please refer to the following link:
     :target: https://www.youtube.com/watch?v=_3JFEPk4qQY&t=2s
 
 
-The virtual environment installation is recommended in order to prevent package conflict and having the capacity to customize the working environment. The TensorFlow version employed for these tutorials is `1.1`. However, the files from previous versions can be transformed to newer versions (ex: version `1.1`) using the instructions available in the following link:
+建议安装虚拟环境，以防止包冲突并具有自定义工作环境的能力。
+本教程部署的TensorFlow版本是`1.1`. 但是，以前版本的文件可以转换为新版本 (例如： `1.1`) 使用以下链接中的指令:
 
   * `Transitioning to TensorFlow 1.0 <https://www.tensorflow.org/install/migration/>`_
 
 =====================
-Some Useful Tutorials
+一些有用的教程
 =====================
 
-  * `TensorFlow Examples <https://github.com/aymericdamien/TensorFlow-Examples>`_ - TensorFlow tutorials and code examples for beginners
-  * `Sungjoon's TensorFlow-101 <https://github.com/sjchoi86/Tensorflow-101>`_ - TensorFlow tutorials written in Python with Jupyter Notebook
-  * `Terry Um’s TensorFlow Exercises <https://github.com/terryum/TensorFlow_Exercises>`_ - Re-create the codes from other TensorFlow examples
-  * `Classification on time series <https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition>`_ - Recurrent Neural Network classification in TensorFlow with LSTM on cellphone sensor data
+  * `TensorFlow Examples <https://github.com/aymericdamien/TensorFlow-Examples>`_ - 为初学者提供的TensorFlow教程和代码示例 
+  * `Sungjoon's TensorFlow-101 <https://github.com/sjchoi86/Tensorflow-101>`_ -  使用Jupyter Notebook用python编写的TensorFlow教程
+  * `Terry Um’s TensorFlow Exercises <https://github.com/terryum/TensorFlow_Exercises>`_ - 使用其他TensorFlow示例重新编写的代码
+  * `Classification on time series <https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition>`_ - 用LSTM对手机传感器数据进行递归神经网络分类
 
 
 
 =============
-Contributing
+贡献
 =============
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. *For typos, please
-do not create a pull request. Instead, declare them in issues or email the repository owner*.
+在对这个仓库进行贡献时，请首先讨论您希望进行的更改，通过提交issue，email，或者其他方式，在提交更改之前与仓库的所有者进行联系。*对于拼写错误，请不要创建pull request。 相反的，可以在issue中声明，或给仓库所有者发email*.
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+请注意我们有一套代码准则，请在项目的所有互动中遵循它。
+
 
 ~~~~~~~~~~~~~~~~~~~~
-Pull Request Process
+Pull 请求过程
 ~~~~~~~~~~~~~~~~~~~~
 
-Please consider the following criterions in order to help us in a better way:
+为了更好的帮助我们，请考虑以下标准:
 
-  * The pull request is mainly expected to be a code script suggestion or improvement.
-  * A pull request related to non-code-script sections is expected to make a significant difference in the documentation. Otherwise, it is expected to be announced in the issues section.
-  * Ensure any install or build dependencies are removed before the end of the layer when doing a build and creating a pull request.
-  * Add comments with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
-  * You may merge the Pull Request in once you have the sign-off of at least one other developer, or if you do not have permission to do that, you may request the owner to merge it for you if you believe all checks are passed.
-
+  * pull 请求主要希望是一个代码脚本建议或改进。
+  * 与非代码脚本部分相关的pull请求希望是对文档的显著改变。否则，最好在issue提交。
+  * 在进行构建和创建pull请求时，确保在层结束之前删除任何安装或构建依赖项。
+  * 添加提交时带有接口更改的详细信息，包括新的环境变量、公开的端口、有用的文件位置和容器参数。
+  * 您可以合并Pull请求，一旦您获得至少一个其他开发人员的签名，或者如果您没有这样做的权限，您可以请求所有者为您合并它，如果您认为所有检查都通过了。
 ~~~~~~~~~~~
-Final Note
+最后的注意点
 ~~~~~~~~~~~
 
-We are looking forward to your kind feedback. Please help us to improve this open source project and make our work better.
-For contribution, please create a pull request and we will investigate it promptly. Once again, we appreciate
-your kind feedback and elaborate code inspections.
+我们期待您的反馈。 请帮助我们提升这个开源项目，使我们的工作做得更好。
+对于贡献，请创建一个pull请求，我们会立即进行调查。我们再次表示感谢
+您友好的反馈和详细的代码检查。
