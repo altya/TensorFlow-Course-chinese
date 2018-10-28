@@ -328,5 +328,5 @@ Pull 请求过程
 感谢
 ================
 
-我在这个项目中付出了巨大的努力，希望成为TensorFlow世界的一小部分。然而，这是不可能的，如果没有我的朋友和同事的支持和帮助， `Domenick Poster <https://github.com/vonclites/>`_ 提供了宝贵的意见。 他帮助我更好地理解了TensorFlow，我特别感谢他。
+我在这个项目中付出了巨大的努力，希望成为TensorFlow世界的一小部分。然而，这是不可能的做到的如果没有我的朋友和同事的支持和帮助， `Domenick Poster <https://github.com/vonclites/>`_ 提供了宝贵的意见。 他帮助我更好地理解了TensorFlow，我特别感谢他。
 我同样要感谢 `Hadi Kazemi <http://www.hadikazemi.com/>`_ 为他在开发  `Undercomplete Autoencoders Tutorial <docs/tutorials/3-neural_network/autoencoder>`_ 时所做的贡献。
