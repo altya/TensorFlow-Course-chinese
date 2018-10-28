@@ -17,16 +17,16 @@
 .. _Wikipedia: https://en.wikipedia.org/wiki/TensorFlow/
 
 #################
-Table of Contents
+内容列表
 #################
 .. contents::
   :local:
   :depth: 3
 
 ~~~~~~~~~~~~~~~~~~~~~
-What is TensorFlow?
+TensorFlow 是什么?
 ~~~~~~~~~~~~~~~~~~~~~
-TensorFlow is an open-source software library for dataflow programming across a range of tasks. It is a symbolic math library, and is also used for machine learning applications such as neural networks. It is used for both research and production at Google often replacing its closed-source predecessor, DistBelief.
+TensorFlow 是一个开源软件库，用于跨一系列任务进行数据流编程.  它是一个符号数学库，也用于机器学习应用程序，如神经网络。它被用于谷歌的研究和生产，经常替换它的闭源前身DistBelief。
 
 TensorFlow was developed by the Google Brain team for internal Google use. It was released under the Apache 2.0 open source license on November 9, 2015.
 
