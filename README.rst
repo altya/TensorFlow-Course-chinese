@@ -287,48 +287,46 @@ TensorFlow 教程
 
 
 =====================
-Some Useful Tutorials
+一些有用的教程
 =====================
 
-  * `TensorFlow Examples <https://github.com/aymericdamien/TensorFlow-Examples>`_ - TensorFlow tutorials and code examples for beginners
-  * `Sungjoon's TensorFlow-101 <https://github.com/sjchoi86/Tensorflow-101>`_ - TensorFlow tutorials written in Python with Jupyter Notebook
-  * `Terry Um’s TensorFlow Exercises <https://github.com/terryum/TensorFlow_Exercises>`_ - Re-create the codes from other TensorFlow examples
-  * `Classification on time series <https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition>`_ - Recurrent Neural Network classification in TensorFlow with LSTM on cellphone sensor data
+  * `TensorFlow Examples <https://github.com/aymericdamien/TensorFlow-Examples>`_ - 为初学者提供的TensorFlow教程和代码示例 
+  * `Sungjoon's TensorFlow-101 <https://github.com/sjchoi86/Tensorflow-101>`_ -  使用Jupyter Notebook用python编写的TensorFlow教程
+  * `Terry Um’s TensorFlow Exercises <https://github.com/terryum/TensorFlow_Exercises>`_ - 使用其他TensorFlow示例重新编写的代码
+  * `Classification on time series <https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition>`_ - 用LSTM对手机传感器数据进行递归神经网络分类
 
 =============
-Contributing
+贡献
 =============
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. *For typos, please
-do not create a pull request. Instead, declare them in issues or email the repository owner*.
+在对这个仓库进行贡献时，请首先讨论您希望进行的更改，通过提交issue，email，或者其他方式，在提交更改之前与仓库的所有者进行联系。*对于拼写错误，请不要创建pull request。 相反的，可以在issue中声明，或给仓库所有者发email*.
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+请注意我们有一套代码准则，请在项目的所有互动中遵循它。
 
 ~~~~~~~~~~~~~~~~~~~~
-Pull Request Process
+Pull 请求过程
 ~~~~~~~~~~~~~~~~~~~~
 
-Please consider the following criterions in order to help us in a better way:
+为了更好的帮助我们，请考虑以下标准:
 
-  * The pull request is mainly expected to be a code script suggestion or improvement.
-  * A pull request related to non-code-script sections is expected to make a significant difference in the documentation. Otherwise, it is expected to be announced in the issues section.
-  * Ensure any install or build dependencies are removed before the end of the layer when doing a build and creating a pull request.
-  * Add comments with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
-  * You may merge the Pull Request in once you have the sign-off of at least one other developer, or if you do not have permission to do that, you may request the owner to merge it for you if you believe all checks are passed.
+  * pull 请求主要希望是一个代码脚本建议或改进。
+  * 与非代码脚本部分相关的pull请求希望是对文档的显著改变。否则，最好在issue提交。
+  * 在进行构建和创建pull请求时，确保在层结束之前删除任何安装或构建依赖项。
+  * 添加提交时带有接口更改的详细信息，包括新的环境变量、公开的端口、有用的文件位置和容器参数。
+  * 您可以合并Pull请求，一旦您获得至少一个其他开发人员的签名，或者如果您没有这样做的权限，您可以请求所有者为您合并它，如果您认为所有检查都通过了。
 
 
 ~~~~~~~~~~~
-Final Note
+最后的注意点
 ~~~~~~~~~~~
 
-We are looking forward to your kind feedback. Please help us to improve this open source project and make our work better.
-For contribution, please create a pull request and we will investigate it promptly. Once again, we appreciate
-your kind feedback and elaborate code inspections.
+我们期待您的反馈。 请帮助我们提升这个开源项目，使我们的工作做得更好。
+对于贡献，请创建一个pull请求，我们会立即进行调查。我们再次表示感谢
+您友好的反馈和详细的代码检查。
 
 ================
-Acknowledgement
+感谢
 ================
 
-I have taken huge efforts in this project for hopefully being a small part of TensorFlow world. However, it would not have been plausible without the kind support and help of my friend and colleague `Domenick Poster <https://github.com/vonclites/>`_ for his valuable advices. He helped me for having a better understanding of TensorFlow and my special appreciation goes to him.
-I would also like to thanks `Hadi Kazemi <http://www.hadikazemi.com/>`_ for his contribution to this code for developing `Undercomplete Autoencoders Tutorial <docs/tutorials/3-neural_network/autoencoder>`_.
+我在这个项目中付出了巨大的努力，希望成为TensorFlow世界的一小部分。然而，这是不可能的，如果没有我的朋友和同事的支持和帮助， `Domenick Poster <https://github.com/vonclites/>`_ 提供了宝贵的意见。 他帮助我更好地理解了TensorFlow，我特别感谢他。
+我同样要感谢 `Hadi Kazemi <http://www.hadikazemi.com/>`_ 为他在开发  `Undercomplete Autoencoders Tutorial <docs/tutorials/3-neural_network/autoencoder>`_ 时所做的贡献。
