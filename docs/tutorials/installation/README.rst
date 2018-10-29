@@ -77,7 +77,7 @@ TensorFlow GPU先决条件安装
 
     sudo mkdir ~/virtualenvs
 
-现在使用``virtualenv`` 命令, 虚拟环境就能被创建:
+现在使用 ``virtualenv`` 命令, 虚拟环境就能被创建:
 
 .. code:: bash
 
@@ -108,7 +108,7 @@ TensorFlow GPU先决条件安装
 
     tensorflow
     
-**检查``~/.bash_aliases``**
+**检查 ``~/.bash_aliases`` **
 
 再次检查， ``~/.bash_aliases`` 在命令行界面使用 ``sudo gedit ~/.bash_aliases`` 命令。 该文件应该包含以下内容:
 
@@ -117,7 +117,7 @@ TensorFlow GPU先决条件安装
     alias tensorflow="source $HO~/virtualenvs/tensorflow/bin/activate" 
     
 
-**检查 ``.bashrc``**
+**检查 ``.bashrc`` **
 
 同样的，让我们检查 ``.bashrc`` shell脚本，使用 ``sudo gedit ~/.bashrc``命令。 该脚本应该包含以下内容:
  
@@ -183,16 +183,16 @@ TensorFlow GPU先决条件安装
 **注意:**
      * cuDNN版本必须使用/usr/local/cuda相关的版本。 
      * 计算能力与系统架构中的“可用GPU模型”相关。 例如 ``Geforce GTX Titan X`` GPUs 有 5.2的计算能力。
-     *  推荐使用``bazel clean``  如果需要再次配置。
+     *  推荐使用 ``bazel clean``  如果需要再次配置。
 
 **警告:**
-     * 如果需要在虚拟环境中安装TwnsorFlow，则必须在运行``./configure``脚本前激活环境。
+     * 如果需要在虚拟环境中安装TwnsorFlow，则必须在运行 ``./configure``脚本前激活环境。
      
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 测试Bazel (可选)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-我们可以运行``Bazel`` 测试，来确保一切环境都正常:
+我们可以运行 ``Bazel`` 测试，来确保一切环境都正常:
 
 .. code:: bash
 
@@ -250,13 +250,13 @@ TensorFlow GPU先决条件安装
 
 **警告**:
            * 通过使用虚拟环境安装工具，sudo不应再被使用。因为如果我们使用sudo，它就会指向系统原生包而不是虚拟环境中的。
-           * 由于``sudo mkdir ~/virtualenvs`` 命令是用来创建虚拟环境的。如果使用 ``pip install`` 返回 ``permission error``。 在这种情况下，环境文件夹的权限必须更改，使用以下命令 ``sudo chmod -R 777 ~/virtualenvs`` 。
+           * 由于 ``sudo mkdir ~/virtualenvs`` 命令是用来创建虚拟环境的。如果使用 ``pip install`` 返回 ``permission error``。 在这种情况下，环境文件夹的权限必须更改，使用以下命令 ``sudo chmod -R 777 ~/virtualenvs`` 。
     
 --------------------------
 验证安装
 --------------------------
 
-在终端，运行以下命令(``在家目录下``) ，必须显示完全正确没有error或者warning:
+在终端，运行以下命令( ``在家目录下``) ，必须显示完全正确没有error或者warning:
 
 .. code:: bash
 
@@ -274,7 +274,7 @@ TensorFlow编译和运行过程中遇到的不同的错误。
 
    * ``Mismatch between the supported kernel versions:`` 这个错误在文档前面部分提到过。简单的解决方案是重新安装CUDA驱动程序。
    * ``ImportError: cannot import name pywrap_tensorflow:`` 这个错误通常是Python从错误的目录加载tensorflow库，例如，不是用户在根目录下安装的版本。 首先确保我们在系统根目录中，以便正确使用python库。 所以，基本上我们可以重新打开一个新的终端，并且尝试再次安装TensorFlow。
-   * ``ImportError: No module named packaging.version":``最有可能是与 ``pip`` 安装有关。 使用 ``python -m pip install -U pip`` 或者 ``sudo python -m pip install -U pip`` 命令重新安装，可能会解决！
+   * ``ImportError: No module named packaging.version":`` 最有可能是与 ``pip`` 安装有关。 使用 ``python -m pip install -U pip`` 或者 ``sudo python -m pip install -U pip`` 命令重新安装，可能会解决！
 
 --------------------------
 总结
