@@ -12,7 +12,7 @@
 
 安装教程见`TensorFlow`_ 。 推荐使用源文件安装，因为用户可以根据特定的体系结构构建所需的TensorFlow二进制文件。这种方式安装有更好的系统兼容性，且运行起来会快很多。使用源文件安装可以点击此链接 `Installing TensorFlow from Sources`_ 。TensorFlow官方的解释简明扼要。但是，在安装的时候却没什么用。（...）  我们尝试一步步来，避免弄混。 下面各节为安装教程。
 
-假设安装TensorFlow的环境为：``Ubuntu``下安装，开启``GPU 支持`` 。 使用的python版本为``Python2.7`` 。
+假设安装TensorFlow的环境为： ``Ubuntu`` 下安装，开启 ``GPU 支持`` 。 使用的python版本为 ``Python2.7`` 。
 
 **注意** 安装过程视频可点击此链接查看。 `link <youtube_>`_ （为方便不能富强的同学，已将视频转至国内源） 
 
