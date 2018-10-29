@@ -10,7 +10,7 @@
 
 
 
-安装教程见`TensorFlow`_ 。 推荐使用源文件安装，因为用户可以根据特定的体系结构构建所需的TensorFlow二进制文件。这种方式安装有更好的系统兼容性，且运行起来会快很多。使用源文件安装可以点击此链接 `Installing TensorFlow from Sources`_ 。TensorFlow官方的解释简明扼要。但是，在安装的时候却没什么用。（...）  我们尝试一步步来，避免弄混。 下面各节为安装教程。
+安装教程见 `TensorFlow`_ 。 推荐使用源文件安装，因为用户可以根据特定的体系结构构建所需的TensorFlow二进制文件。这种方式安装有更好的系统兼容性，且运行起来会快很多。使用源文件安装可以点击此链接（需要富强） `Installing TensorFlow from Sources`_ 。TensorFlow官方的解释简明扼要。但是，在安装的时候却没什么用。（...）  我们尝试一步步来，避免弄混。 下面各节为安装教程。
 
 假设安装TensorFlow的环境为： ``Ubuntu`` 下安装，开启 ``GPU 支持`` 。 使用的python版本为 ``Python2.7`` 。
 
@@ -45,7 +45,7 @@ TensorFlow Python依赖安装
 Bazel安装
 ~~~~~~~~~~~~~~~~~~~
 
-请参照 `Bazel Installation`_.
+请参照 `Bazel Installation`_。
 
 ``警告:`` Bazel安装可能会改变GPU支持的内核!在那之后你可能需要刷新你的GPU安装，或者更新它，否则 你在安装 TensorFlow时可能会出现以下错误:
 
