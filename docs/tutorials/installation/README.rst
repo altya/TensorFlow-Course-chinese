@@ -119,7 +119,7 @@ TensorFlow GPU先决条件安装
 
 **检查 ``.bashrc`` **
 
-同样的，让我们检查 ``.bashrc`` shell脚本，使用 ``sudo gedit ~/.bashrc``命令。 该脚本应该包含以下内容:
+同样的，让我们检查 ``.bashrc`` shell脚本，使用 sudo gedit ~/.bashrc 命令。 该脚本应该包含以下内容:
  
 .. code:: shell
 
@@ -186,7 +186,7 @@ TensorFlow GPU先决条件安装
      *  推荐使用 ``bazel clean``  如果需要再次配置。
 
 **警告:**
-     * 如果需要在虚拟环境中安装TwnsorFlow，则必须在运行 ``./configure``脚本前激活环境。
+     * 如果需要在虚拟环境中安装TwnsorFlow，则必须在运行 ./configure 脚本前激活环境。
      
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 测试Bazel (可选)
