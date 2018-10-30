@@ -1,8 +1,10 @@
 ============================
-欢迎来到TensorFlow 世界 
+欢迎来到TensorFlow世界
 ============================
 
-.. _this link: https://github.com/astorfi/TensorFlow-World/tree/master/Tutorials/0-welcome
+.. _this link: https://github.com/astorfi/TensorFlow-World/tree/master/codes/0-welcome
+
+本节教程是进入TensorFlow世界的开始。
 
 本节教程是进入TensorFlow世界的开始。
 
@@ -49,21 +51,26 @@
     if not os.path.isabs(os.path.expanduser(FLAGS.log_dir)):
         raise ValueError('You must assign absolute path for --log_dir')
 
------------------
+--------
 基础
------------------
+--------
 
-一些sentence可以通过TensorFlow定义:
+一些基础的数学运算可以在TensorFlow中定义:
 
 .. code:: python
 
-     # Defining some sentence!
-     welcome = tf.constant('Welcome to TensorFlow world!')
+     # Defining some constant values
+     a = tf.constant(5.0, name="a")
+     b = tf.constant(10.0, name="b")
+
+     # Some basic operations
+     x = tf.add(a, b, name="add")
+     y = tf.div(a, b, name="divide")
     
-``tf.`` 运算符执行特定的操作，并且结果会是一个 ``Tensor``. 属性 ``name="some_name"`` 被定义让Tensorboard更好的可视化，稍后在本教程中会看到。
+ ``tf.`` 运算符执行特定操作， 并且输出会是一个 ``Tensor`` 。属性 ``name="some_name"`` 被定义为了Tensorboard更好的可视化，具体在本教程后面会看到。
 
 -------------------
-运行实验
+Run the Experiment
 -------------------
 
  ``session``，是运行操作的环境, 执行命令如下:
@@ -73,12 +80,30 @@
     # Run the session
     with tf.Session() as sess:
         writer = tf.summary.FileWriter(os.path.expanduser(FLAGS.log_dir), sess.graph)
-        print("output: ", sess.run(welcome))
+        print("output: ", sess.run([a,b,x,y]))
 
     # Closing the writer.
     writer.close()
     sess.close()
 
 ``tf.summary.FileWriter`` 被定义用来写总结到 ``event files``。 ``sess.run()``命令 必须被用来评价 ``Tensor`` 否则操作不会被执行。 最后通过使用 ``writer.close()``, summary writer会被关闭。
- 
+    
+--------
+结果
+--------
+
+在终端中运行的结果如下:
+
+.. code:: shell
+
+        [5.0, 10.0, 15.0, 0.5]
+
+
+如果我们运行Tensorboard使用 ``tensorboard --logdir="absolute/path/to/log_dir"`` 命令。我们得到以下可视化 ``Graph``:
+
+.. figure:: https://github.com/astorfi/TensorFlow-World/blob/master/docs/_img/1-basics/basic_math_operations/graph-run.png
+   :scale: 30 %
+   :align: center
+
+   **Figure 1:** The TensorFlow Graph.
 
