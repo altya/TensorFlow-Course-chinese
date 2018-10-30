@@ -66,11 +66,14 @@
      # Some basic operations
      x = tf.add(a, b, name="add")
      y = tf.div(a, b, name="divide")
-    
- ``tf.`` 运算符执行特定操作， 并且输出会是一个 ``Tensor`` 。属性 ``name="some_name"`` 被定义为了Tensorboard更好的可视化，具体在本教程后面会看到。
+
+
+ ``tf.`` 
+运算符执行特定操作， 并且输出会是一个 ``Tensor`` 。
+ 属性 ``name="some_name"`` 被定义为了Tensorboard更好的可视化，具体在本教程后面会看到。
 
 -------------------
-Run the Experiment
+运行试验
 -------------------
 
  ``session``，是运行操作的环境, 执行命令如下:
@@ -86,7 +89,7 @@ Run the Experiment
     writer.close()
     sess.close()
 
-``tf.summary.FileWriter`` 被定义用来写总结到 ``event files``。 ``sess.run()``命令 必须被用来评价 ``Tensor`` 否则操作不会被执行。 最后通过使用 ``writer.close()``, summary writer会被关闭。
+``tf.summary.FileWriter`` 被定义用来写总结到 ``event files``。 ``sess.run()`` 命令必须被用来评价 ``Tensor`` 否则操作不会被执行。 最后通过使用 ``writer.close()`` , summary writer会被关闭。
     
 --------
 结果
