@@ -107,7 +107,7 @@ At first, we need to extract "0" and "1" digits from MNIST dataset:
 
  代码看起来很冗长，但实际上非常简单。所有我们想要实现的，
 在第28-32行中实现了，即抽取所需样本。
-提取。接下来，我们需要深入挖掘logistic regression的体系构造。
+接下来，我们需要深入挖掘logistic regression的体系构造。
 
 Logistic Regression实现
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
