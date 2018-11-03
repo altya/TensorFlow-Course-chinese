@@ -17,8 +17,8 @@
 介绍
 ------------
 
-使用TensorFlow <http://www.machinelearninguru.com/deep_learning/tensorflow/machine_learning_basics/linear_regresstion/linear_regression.html>`__
-做线性回归这篇文章中，我们描述了如何预测连续参数使用线性建模系统。 那么如果目标是在二者中选一个呢？答案很简单:我们是在处理一个分类问题。 在这篇教程中，目标是使用 Logistic Regression决定输入的照片是“0”还是“1” 换句话说，是数字“1”或者不是！全部的源代码在相关Github  <https://github.com/Machinelearninguru/Deep_Learning/tree/master/TensorFlow/machine_learning_basics/logistic_regression>`__ 仓库可见。
+使用`TensorFlow <http://www.machinelearninguru.com/deep_learning/tensorflow/machine_learning_basics/linear_regresstion/linear_regression.html>`__
+做线性回归这篇文章中，我们描述了如何预测连续参数使用线性建模系统。 那么如果目标是在二者中选一个呢？答案很简单:我们是在处理一个分类问题。 在这篇教程中，目标是使用 Logistic Regression决定输入的照片是“0”还是“1” 换句话说，是数字“1”或者不是！全部的源代码在相关`Github  <https://github.com/Machinelearninguru/Deep_Learning/tree/master/TensorFlow/machine_learning_basics/logistic_regression>`__ 仓库可见。
 
 数据集
 -------
@@ -42,7 +42,7 @@ $$Loss(W) =
 
 As it can be seen from the above equation, the loss function consists of
 two term and in each sample only one of them is non-zero considering the
-binary labels.（此次暂未翻译）
+binary labels.（此部分暂未翻译）
 
 到目前为止，我们定义了logistic regression的公式和优化函数。 在下一部分，我们将演示如何在代码中使用mini-batch优化。
 
@@ -64,7 +64,7 @@ Classifier <http://www.machinelearninguru.com/deep_learning/tensorflow/neural_ne
 处理数据集
 ~~~~~~~~~~~~~~~
 
-At first, we need to extract "0" and "1" digits from MNIST dataset:
+首先，我们需要从MNIST数据集中抽取 "0" and "1" 数字对应的图片:
 
 .. code:: python
 
@@ -105,8 +105,7 @@ At first, we need to extract "0" and "1" digits from MNIST dataset:
     data['test/image'] = mnist.test.images[index_list_test]
     data['test/label'] = mnist.test.labels[index_list_test]
 
- 代码看起来很冗长，但实际上非常简单。所有我们想要实现的，
-在第28-32行中实现了，即抽取所需样本。
+代码看起来很冗长，但实际上非常简单。所有我们想要实现的，在第28-32行中实现了，即抽取所需样本。
 接下来，我们需要深入挖掘logistic regression的体系构造。
 
 Logistic Regression实现
@@ -151,7 +150,7 @@ tf.nn.softmax\_cross\_entropy\_with\_logits这个函数做了这件工作。它�
 It generates two inputs in which even if the sample is digit
 "0", the correspondent probability will be high. So
 tf.nn.softmax\_cross\_entropy\_with\_logits function, for each class
-predict a probability and inherently on its own, makes the decision.
+predict a probability and inherently on its own, makes the decision.（此部分暂未翻译）
 
 总结
 -------
