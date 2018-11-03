@@ -17,8 +17,8 @@
 介绍
 ------------
 
-使用`TensorFlow <http://www.machinelearninguru.com/deep_learning/tensorflow/machine_learning_basics/linear_regresstion/linear_regression.html>`__
-做线性回归这篇文章中，我们描述了如何预测连续参数使用线性建模系统。 那么如果目标是在二者中选一个呢？答案很简单:我们是在处理一个分类问题。 在这篇教程中，目标是使用 Logistic Regression决定输入的照片是“0”还是“1” 换句话说，是数字“1”或者不是！全部的源代码在相关`Github  <https://github.com/Machinelearninguru/Deep_Learning/tree/master/TensorFlow/machine_learning_basics/logistic_regression>`__ 仓库可见。
+使用 `TensorFlow <http://www.machinelearninguru.com/deep_learning/tensorflow/machine_learning_basics/linear_regresstion/linear_regression.html>`__
+做线性回归这篇文章中，我们描述了如何预测连续参数使用线性建模系统。 那么如果目标是在二者中选一个呢？答案很简单:我们是在处理一个分类问题。 在这篇教程中，目标是使用 Logistic Regression决定输入的照片是“0”还是“1” 换句话说，是数字“1”或者不是！全部的源代码在相关 `Github  <https://github.com/Machinelearninguru/Deep_Learning/tree/master/TensorFlow/machine_learning_basics/logistic_regression>`__ 仓库可见。
 
 数据集
 -------
@@ -129,7 +129,7 @@ logistic regression结构只是简单的从前面“喂”入输入向量，通�
         # A simple fully connected with two class and a Softmax is equivalent to Logistic Regression.
         logits = tf.contrib.layers.fully_connected(inputs=image_place, num_outputs = FLAGS.num_classes, scope='fc')
 
-前面几行尸定义占位符用于在graph中存放值。具体请参考 `这篇文章 <http://www.machinelearninguru.com/deep_learning/tensorflow/neural_networks/cnn_classifier/cnn_classifier.html>`__
+前面几行是定义占位符，用于在graph中存放值。具体请参考 `这篇文章 <http://www.machinelearninguru.com/deep_learning/tensorflow/neural_networks/cnn_classifier/cnn_classifier.html>`__
 。 损失函数使用TensorFlow可以轻易实现，脚本如下： 
 
 .. code:: python
