@@ -25,10 +25,9 @@
 创建一个Undercomplete Autoencoder
 -----------------------------------
 
-我们要创建一个有三层编码器三层译码器的自编码器。 每一层编码器从它的输入向下采样，沿着空间尺寸（长度，高度）Each layer of encoder downsamples its input along the spatial
+我们要创建一个有三层编码器三层译码器的自编码器。 Each layer of encoder downsamples its input along the spatial
 dimensions (width, height) by a factor of two using a stride 2.
-Consequently, the dimension of the code is 2(width) X 2(height) X
-8(depth) = 32 (for an image of 32X32). Similarly, each layer of the
+因此代码的维度是2（宽）×2（高）×8（深）=32（对于一张照片 32×32）。 Similarly, each layer of the
 decoder upsamples its input by a factor of two (using transpose
 convolution with stride 2).
 
@@ -59,11 +58,8 @@ convolution with stride 2).
 
    **Figure 1:** Autoencoder
 
-The MNIST dataset contains vectorized images of 28X28. Therefore we
-define a new function to reshape each batch of MNIST images to 28X28 and
-then resize to 32X32. The reason of resizing to 32X32 is to make it a
-power of two and therefore we can easily use the stride of 2 for
-downsampling and upsampling.
+MNIST数据集采用了28X28的矢量化图片。因此我们定义一个新的方程去重塑每一批次的MINST图片，把28×28的图片，变为32×32的。 
+变成32×32的原因是，使之成为2的幂，便于我们下采样和上采样。
 
 .. code-block:: python
 
@@ -82,8 +78,7 @@ downsampling and upsampling.
             resized_imgs[i, ..., 0] = transform.resize(imgs[i, ..., 0], (32, 32))
         return resized_imgs
 
-Now we create an autoencoder, define a square error loss and an
-optimizer.
+现在我们创造了一个自动编码器，定义了一个平方误差和一个优化器。
 
 
 .. code-block:: python
@@ -100,8 +95,7 @@ optimizer.
     # initialize the network
     init = tf.global_variables_initializer()
 
-Now we can read the batches, train the network and finally test the
-network by reconstructing a batch of test images.
+现在我们读取一批次的图片，训练网络并最终测试网络，通过重建一批次的图片。
 
 
 .. code-block:: python
