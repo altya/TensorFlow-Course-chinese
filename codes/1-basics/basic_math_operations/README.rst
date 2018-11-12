@@ -1,34 +1,24 @@
 
 ===========================
-欢迎来到TensorFlow 世界 
+欢迎来到TensorFlow世界
 ===========================
 
-这篇文档专注于解释如何运行本教程的python脚本。
+本文档专门用于解释如何在本教程中运行python脚本。
 
----------------------------
-Test TensorFlow Environment
----------------------------
-
-``警告:`` 如果TensorFlow在任何环境安装了（虚拟环境，...），它必须先被激活。 所以，首先使用以下语句，保证tensorFlow在当前环境可用： 
-
-.. code:: shell
-
-    cd code/
-    python TensorFlow_Test.py
-    
+   
 --------------------------------
-如何在终端运行代码？
+如何在终端中运行代码？
 --------------------------------
 
     
-请到 ``code/`` 目录，并且以以下形式运行脚本： 
+请切换到 ``code/`` 目录下，并且以如下形式运行python脚本：
 
 .. code:: shell
     
     python [python_code_file.py] --log_dir='absolute/path/to/log_dir'
     
 
-一个样例代码可以以如下方式执行：
+作为示例，代码可以被如下方式执行：
 
 .. code:: shell
     
@@ -61,8 +51,6 @@ Tensorboard可以使用以下命令来运行在命令行之中:
     
     tensorboard --logdir="absolute/path/to/log_dir"
 
-
- 
 
 
 
